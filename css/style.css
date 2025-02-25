@@ -8,11 +8,9 @@ div.container{
     gap: 15px;
 }
 
-span{
-    padding:5px;
-    font-size: 10px;
+.py-5{
+    padding: 5px;
 }
-
 /* Spaziatura */
 
 header{
@@ -68,13 +66,8 @@ main{
     padding: 100px;
 }
 
-.border{
-    border: 1px solid black;
-}
-
 .col-33{
-    width: 30%;
-    margin-bottom: 50px;
+    width: 32%;
 }
 
 
@@ -104,13 +97,15 @@ main{
 
 
 .price{
-    color:#FF5733;
-    font-size: 0.8em;
+    color:red;
+    font-size: 0.6em;
+    font-weight: 800;
 }
 
 .ex-price{
-    font-size: 0.8em;
+    font-size: 0.6em;
     text-decoration: line-through;
+    font-weight: 600;
 }
 
 .label{
@@ -118,12 +113,32 @@ main{
     color: white;
     bottom: 35px;
     left: 0;
+    font-size: 10px;
 }
 
-.content{
-    
+.description{
+    font-size: 1em;
 }
 
+.marca{
+    font-size: 0.6em;
+}
+
+/* Footer */
+
+footer{
+    background-color: #1a1a1a;
+    padding: 10px;
+    color: #fff;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.col-30{
+    width: 30%;
+}
 
 /* ALL BG */
 
@@ -133,6 +148,11 @@ main{
 
 .bg-green{
     background-color: green;
+}
+
+.box{
+    width: 100%;
+    padding: 5px 0;
 }
 
 /* Utility */
@@ -152,3 +172,33 @@ main{
 .inline-block{
     display: inline-block;
 }
+
+.align-left{
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.align-right{
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icon-social{
+    margin: 0 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Hover */
+
+.hover-img:hover{
+    opacity:1;
+}
+
