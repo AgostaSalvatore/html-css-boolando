@@ -23,14 +23,6 @@ header{
     z-index: 1;
 }
 
-.category li{
-    list-style: none;
-    flex-direction: row;
-    padding: 0 10px;
-    text-decoration: none;
-    font-weight: 300;
-}
-
 .icons{
     color: white;
 }
@@ -53,7 +45,7 @@ header{
     padding:12px;
 }
 
-li{
+ul{
     list-style-type: none;
     flex-direction: row;
     padding: 0px 10px;
@@ -163,6 +155,11 @@ footer{
 
 .justify-content-center{
     justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+    align-content: center;
 }
 
 .flex-wrap{
