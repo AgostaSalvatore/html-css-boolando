@@ -61,6 +61,10 @@ li{
 
 /* Main */
 
+main{
+    padding: 100px;
+}
+
 .h-800{
     height: 800px;
 }
@@ -79,6 +83,14 @@ li{
 
 .flex-wrap{
     flex-wrap: wrap;
+}
+
+.card{
+    width: 100%;
+}
+
+.card img{
+    max-width: 100%;
 }
 
 /* ALL BG */
