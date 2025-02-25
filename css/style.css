@@ -58,3 +58,35 @@ li{
     padding: 0px 10px;
     font-size: 14px;
 }
+
+/* Main */
+
+.h-800{
+    height: 800px;
+}
+
+.h-300{
+    height: 300px;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.col-33{
+    width: 33%;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+/* ALL BG */
+
+.bgred{
+    background-color: red;
+}
+
+.bgsilver{
+    background-color: silver;
+}
