@@ -20,7 +20,7 @@ header{
     padding: 10px 0px;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 3;
 }
 
 .icons{
@@ -49,7 +49,10 @@ ul{
     list-style-type: none;
     flex-direction: row;
     padding: 0px 10px;
-    font-size: 14px;
+}
+
+.bigtext{
+    font-size: 24px;
 }
 
 /* Main */
@@ -84,8 +87,12 @@ main{
     top: 10px;
     right: 0;
     width: 35px;
+    z-index: 2;
 }
 
+.hearth:hover{
+    color: red;
+}
 
 
 .price{
@@ -106,10 +113,11 @@ main{
     bottom: 35px;
     left: 0;
     font-size: 10px;
+    z-index: 2;
 }
 
 .description{
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .marca{
@@ -195,7 +203,13 @@ a{
 
 /* Hover */
 
-.hover-img:hover{
+.hidden-img:hover{
     opacity:1;
+}
+
+.hidden-img{
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
 }
 
